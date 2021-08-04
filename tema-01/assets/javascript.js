@@ -25,6 +25,8 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+
+
 var musik = new Audio();
         musik.src="assets/bs.mp3";
         musik.loop=true;
@@ -32,10 +34,19 @@ var musik = new Audio();
 
         function mulaiAudio(){
             var play = document.getElementById("play");
+            var pause = document.getElementById("pause");
 
             play.addEventListener('click', fplay);
+            pause.addEventListener('click', fpause);
 
             function fplay(){
+                if(musik.paused){
+                    musik.play();
+                }else{
+                    musik.pause();
+                }
+            }
+            function fpause(){
                 if(musik.paused){
                     musik.play();
                 }else{
@@ -51,6 +62,8 @@ var musik = new Audio();
       function buka() {
         window.location = "undangan.html";
     }
+
+
 
 
 
