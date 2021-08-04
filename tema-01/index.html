@@ -8,191 +8,29 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
+    
     <!-- my css -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-
-
-    <title>Jasa Pembuatan Web</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Premium 1</title>
   </head>
   <body>
-        <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
-      <div class="container">
-      <a class="navbar-brand" href="#home">Project</a> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#undangan">Undangan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            </li> 
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- akhir Nav Bar -->
-
-      <section id="home">
+    <div class="kpd">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <h1 class="folio ">Jasa Pembuatan Web <br> CV & Undangan Pernikahan</h1>
-                <h1 class="aboutf">Buat data dirimu dalam sebuah web agar tidak hilang & Sebarkan kabar bahagiamu dengan mudah hanya dalam hitungan detik menggunakan undangan pernikahan digital.</h1>
-                <button class="pricef" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" onclick="price()">Price List</button>
+            <div class="row text-center">
+                <div class="tamu">
+                    <h1 class="project">Project</h1>
+                    <h1 class="premium-1">Premium 1</h1>
+                    <img class="imgp" src="img/imgp.jpg" alt="">
+                    <h1 class="yth">Kepada Yth.</h1>
+                    <button class="buka" id="play" onclick="buka()"><i class="bi bi-envelope-fill"></i> Buka Undangan</button>
+                </div>
             </div>
-            <div class="col-md-5">
-              <img class="ftheader" data-aos="fade-left" data-aos-duration="1500" src="img/header.png" alt="">
-            </div>
-          </div>
         </div>
-      </section>
-
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="ftit" data-aos="flip-left"  src="img/IT.jpg" alt="">
-            </div>
-            <div class="col-md-8">
-              <h1 class="aboutme">Kami Tercipta Karena Keresahan</h1>
-              <ul class="main">
-                <b>
-                <li class="li">
-                  Biaya Design Untuk Undangan Pernikahan yang Mahal
-                </li>
-                <li class="li">
-                  Untuk Mengurangi Sampah Kertas
-                </li>
-                <li class="li">
-                  Undangan yang tidak sampai di tangan ujung ujung nya di foto dan di kirim lewat wa
-                </li>
-              </b>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="undangan">
-        <div class="container">
-          <div class="row">
-            <h1 class="undangan-pernikahan text-center">Tema Undangan Pernikahan</h1>
-          </div>
-          <div class="row">
-            <div class="col-md-3 premium1">
-              <img class="ftpremium1 tema" src="img/TEMA-01.jpg" alt="">
-              <button id="live" onclick="tema01()"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
-            </div>
-            <div class="col-md-3 premium1">
-              <img class="ftpremium1 tema" src="img/TEMA-02.jpg" alt="">
-              <button id="live"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
-            </div>
-            <div class="col-md-3 premium1">
-              <img class="ftpremium1 tema" src="img/TEMA-03.jpg" alt="">
-              <button id="live"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
-            </div>
-            <button class="all">Lihat Semua Tema</button>
-          </div>
-        </div>
-      </section>
-
-      <section id="price">
-        <div class="container">
-          <div class="row text-center">
-            <h1 class="daftar-harga">Daftar Harga Undangan Digital</h1>
-            <h1 class="terima-beres">Daftar Harga di Bawah Adalah Harga Terima Beres</h1>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-3 paket">
-              <h1 class="reguler">Paket Reguler</h1>
-              <h1 class="harga">Rp. 149.000</h1>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Hanya Menggunakan Tema 1</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Quotes</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Detail Info Acara</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Profil Pasangan</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Protocol Kesehatan</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Navigasi Lokasi</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> 2 Jadwal Acara</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Ucapan</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Love Stories</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Galery Max 10</p>
-              <button class="pesan" onclick="pesan()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
-            </div>
-            <div class="col-md-3 paket">
-              <h1 class="reguler">Paket Premium</h1>
-              <h1 class="harga">Rp. 259.000</h1>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Semua yang Ada di Paket Reguler</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Galery Max 20</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Background Musik</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Rekening Amplop Digital</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Bebas Pilih Tema Premium</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Masa Aktif 1 Tahun</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Kisah Cinta Berupa TimeLine</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> + Amplop Digital Full Channel Pembayaran Rp. 50.000</p>
-              <button class="pesan" onclick="pesan()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
-            </div>
-          </div>
-        </div>
-      </section>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      const main = document.querySelectorAll(".li");
-      const paket = document.querySelectorAll(".paket");
-
-      main.forEach((main, i)=>{
-        main.dataset.aos = "fade-up";
-        main.dataset.aosDelay = i * 300;
-      });
-
-      paket.forEach((paket, i) =>{
-        paket.dataset.aos = "fade-up";
-        paket.dataset.aosDelay = i * 300;
-        paket.dataset.aosDuration = 1500;
-      });
-
-      AOS.init({
-        delay: 200,
-        offset: 150,
-        duration: 1500,
-        once: true,
-      });
+    <script type="text/javaScript" src="assets/javascript.js">
     </script>
-
-    <script type="text/javaScript">
-      function price() {
-        window.location="#price";
-      };
-
-      function pesan() {
-        window.location="https://wa.me/+6283143835627?message=Halo"
-      }
-
-      function tema01() {
-        window.location= "tema-01/index.html";
-      }
-    </script>
-
-
   </body>
 </html>
