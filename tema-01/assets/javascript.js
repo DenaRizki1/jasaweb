@@ -26,7 +26,7 @@ var x = setInterval(function() {
 }, 1000);
 
 var musik = new Audio();
-        musik.src="p.mp3";
+        musik.src="assets/bs.mp3";
         musik.loop=true;
         musik.play();
 
@@ -43,6 +43,7 @@ var musik = new Audio();
                 }
             }
         }
+        window.addEventListener('load', mulaiAudio);
 
         function maps() {
           document.location="https://goo.gl/maps/3uX9V9bSqqRavfsu9";

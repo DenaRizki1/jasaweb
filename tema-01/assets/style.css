@@ -292,6 +292,13 @@ h1.ls{
     font-size: 20px;
 }
 
+.play{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    padding: 50px 0 0 20px;
+}
+
 @media(max-width: 670px){
     .tamu{
         margin-top: 130px;
