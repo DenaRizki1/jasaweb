@@ -54,7 +54,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-                <h1 class="folio ">Jasa Pembuatan Web <br> Portofolio & Undangan Pernikahan</h1>
+                <h1 class="folio ">Jasa Pembuatan Web <br> CV & Undangan Pernikahan</h1>
                 <h1 class="aboutf">Buat data dirimu dalam sebuah web agar tidak hilang & Sebarkan kabar bahagiamu dengan mudah hanya dalam hitungan detik menggunakan undangan pernikahan digital.</h1>
                 <button class="pricef" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" onclick="price()">Price List</button>
             </div>
@@ -99,7 +99,7 @@
           <div class="row">
             <div class="col-md-3 premium1">
               <img class="ftpremium1 tema" src="img/TEMA-01.jpg" alt="">
-              <button id="live"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
+              <button id="live" onclick="tema01()"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
             </div>
             <div class="col-md-3 premium1">
               <img class="ftpremium1 tema" src="img/TEMA-02.jpg" alt="">
@@ -137,7 +137,7 @@
               <button class="pesan" onclick="pesan()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
             </div>
             <div class="col-md-3 paket">
-              <h1 class="reguler">Paket Reguler</h1>
+              <h1 class="reguler">Paket Premium</h1>
               <h1 class="harga">Rp. 259.000</h1>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Semua yang Ada di Paket Reguler</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Galery Max 20</p>
@@ -185,7 +185,11 @@
       };
 
       function pesan() {
-        window.location="https://wa.me/083143835627"
+        window.location="https://wa.me/+6283143835627"
+      }
+
+      function tema01() {
+        window.location= "http://localhost:52330/undangan.html";
       }
     </script>
 
