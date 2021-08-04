@@ -1,0 +1,347 @@
+
+.kpd{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.kpd::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tamu{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+    margin: 40px 0 0 350px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+h1.project{
+    color: rebeccapurple;
+    padding: 10px 0 10px 0;
+}
+
+h1.premium-1{
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+img.imgp{
+    border-radius: 50%;
+    height: 160px;
+}
+
+h1.yth{
+    padding: 20px 0 30px 10px;
+    font-size: x-large;
+}
+
+button.buka{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 50px;
+    width: 180px;
+}
+
+button.buka:hover{
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+}
+
+h1.wedding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Style Script', cursive;
+    color: #bcad9d;
+}
+
+img.imgh{
+    height: 400px;
+    width: 301px;
+    color: sienna;
+    margin-left: 420px;
+
+}
+
+h1.pengantin{
+    padding-top: 30px;
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    font-size: 60px;
+}
+h1.pengantin1{
+    padding-top: 30px;
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    font-size: 60px;
+}
+
+h1.surat{
+    font-family: 'Style Script', cursive;
+    font-size: x-large;
+    color: #bcad9d;
+}
+
+.mempelai{
+    border: 1px solid #bcad9d;
+    border-radius: 20px;
+    background-color: transparent;
+    height: 580px;
+    width: 700px;
+    margin:30px 0 30px 215px;
+}
+
+h1.salam{
+    font-size: x-large;
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    padding-top: 30px;
+}
+
+h1.mengundang{
+    padding-top: 10px;
+    color: #bcad9d;
+    font-size: 19px;
+}
+
+img.ft{
+    border-radius: 50%;
+    margin-top: 30px;
+    height: 200px;
+}
+
+h1.ortu{
+    font-size: 19px;
+    color: #bcad9d;
+}
+
+.cd{
+    background-image: url('../img/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+.cd::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+img.cd1{
+    width: 200px;
+    height: 300px;
+    z-index: 2;
+    margin: 150px 0 30px 470px;
+}
+
+h1.ua{
+    font-size: 25px;
+}
+
+h1#hari{
+    margin-left: 350px;
+}
+h1#jam{
+    margin-left: 30px;
+}
+h1#menit{
+    margin-left: 30px;
+}
+h1#detik{
+    margin-left: 20px;
+}
+
+
+h1.waktuacara{
+    font-size: 20px;
+    border: 2px solid #bcad9d;
+    border-radius: 10px;
+    color: #bcad9d;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.jadwal{
+    background-color: rgb(0, 0, 0);
+}
+
+.akad{
+    border: 1px solid #bcad9d;
+    border-radius: 20px;
+    margin: 30px 0 30px 40px;
+    height: 450px;
+    width: 350px;
+    margin-left: 200px;
+}
+
+h1.acara{
+    color: #bcad9d;
+    padding-top: 30px;
+    font-family: 'Style Script', cursive;
+}
+
+h1.acara-akad{
+    color: #bcad9d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Style Script', cursive;
+    font-size: xx-large;
+    border-bottom: 1px dashed #bcad9d;
+}
+
+h1.tgl{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #bcad9d;
+    font-size: x-large;
+}
+
+h1.wkt{
+    padding-bottom: 10px;
+    color: #bcad9d;
+    font-size: x-large;
+}
+
+h1.lks{
+    color: #bcad9d;
+    font-size: x-large;
+}
+h1.jln{
+    padding-bottom: 10px;
+    color: #bcad9d;
+    font-size: x-large;
+}
+
+button.maps{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+}
+
+.resepsi{
+    border: 1px solid #bcad9d;
+    border-radius: 20px;
+    margin: 30px 0 30px 40px;
+    height: 450px;
+    width: 350px;
+
+}
+
+.galery{
+    background-color: rgba(0, 0, 0);
+}
+
+h1.moment{
+    border-bottom: 1px dashed #bcad9d;
+    color: #bcad9d;
+    font-family: 'Style Script',cursive;
+    padding: 10px 0 20px 0;
+}
+
+h1.galerym{
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    padding: 20px;
+}
+
+h1.story{
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    border-bottom: 1px dashed #bcad9d;
+    padding: 20px;
+}
+
+.loves{
+    background-color: rgb(0, 0, 0);
+}
+
+h1.ls{
+    color: #bcad9d;
+    font-family: 'Style Script', cursive;
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media(max-width: 670px){
+    img.imgh{
+        margin-left: 40px;
+    }
+
+    .mempelai{
+        margin-left: 10px;
+        height: 750px;
+        width: 350px;
+    }
+
+    h1.pengantin1{
+        font-size: 50px;
+    }
+
+    img.cd1{
+        margin: 90px;
+    }
+
+    h1.waktuacara{
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        z-index: 2;
+    }
+    
+    
+    h1#hari{
+        margin-left: 10px;
+    }
+    h1#jam{
+        margin-left: 13px;
+    }
+    h1#menit{
+        margin-left: 13px;
+    }
+    h1#detik{
+        margin-left: 13px;
+    }
+
+    .akad{
+        margin-left: 10px;
+    }
+
+    .resepsi{
+        margin-left: 10px;
+    }
+
+    h1.ls{
+        font-size: 10px;
+    }
+}
