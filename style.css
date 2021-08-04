@@ -1,0 +1,278 @@
+
+
+nav{
+    background-color: rgba(0, 233, 221);
+}
+
+section#home{
+    padding-top: 10rem;
+    background-color:  rgba(0, 233, 221, 0.315);
+}
+
+section#home h1.folio{
+    color: rgb(0, 0, 0);
+}
+section#home h1.aboutf{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px 0 30px 30px;
+}
+
+button.pricef{
+    border: 1px solid transparent;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    background-color: rgba(6, 255, 243, 0.74);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+button.pricef:hover{
+    border-color: rgb(0, 38, 255);
+    color: rgb(0, 17, 248);
+}
+
+
+img.ftheader{
+    padding: 0 0 0 100px;
+}
+
+
+img.ftit{
+    height: 350px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+section#about{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color:  rgba(0, 233, 221, 0.185);
+}
+
+h1.aboutme{
+    padding: 0 0 0 160px;
+}
+ul.main li{
+    list-style: none;
+    padding-left: 150px;
+}
+
+ul li.li{
+    padding-top: 20px;
+}
+
+section#undangan{
+    padding-top: 5rem;
+}
+
+.premium1{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+              2px 2px 17px rgba(0, 0, 0, .35), 
+              2px 2px 25px rgba(0, 0, 0, .5);
+              border-radius: 20px;
+    padding: 20px 0 20px 18px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+img.ftpremium1{
+    border-radius: 20px;
+}
+
+button#live{
+    margin: 30px 0 0 50px;
+    border: 1px solid ;
+    background-color: rgb(6, 255, 243);
+    border-color: rgb(6, 255, 243);
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+button#live:hover{
+    border-color: rgb(0, 38, 255);
+    color: rgb(0, 38, 255);
+}
+
+button.all{
+    margin: 30px 0 30px 510px;
+    border: 1px solid ;
+    background-color: rgb(6, 255, 243);
+    border-color: rgb(6, 255, 243);
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+button.all:hover{
+    border-color: rgb(0, 38, 255);
+    color: rgb(0, 38, 255);
+}
+
+h1.undangan-pernikahan{
+    padding: 20px 0 50px 0;
+}
+
+section#price{
+    padding-top: 5rem;
+    background-color: rgba(0, 233, 221, 0.315);
+}
+
+h1.daftar-harga{
+    font-family: 'Style Script', cursive;
+}
+
+h1.terima-beres{
+    font-size: medium;
+    padding: 20px 0 50px 0;
+}
+
+.paket{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+              2px 2px 17px rgba(0, 0, 0, .35), 
+              2px 2px 25px rgba(0, 0, 0, .5);
+              border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px 0 20px 0;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    width: 350px;
+    
+}
+
+p.fitur-1{
+    padding-left: 40px;
+}
+
+button.pesan{
+    margin: 30px 0 0 20px;
+    border: 1px solid ;
+    background-color: rgb(6, 255, 243);
+    border-color: rgb(6, 255, 243);
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+button.pesan:hover{
+    border-color: rgb(6, 122, 255);
+    color: rgb(6, 122, 255);
+}
+
+@media(max-width: 670px){
+    img.ftheader{
+        padding: 50px 0 0 145px;
+        height: 250px;
+    }
+
+    img.ftit{
+        height: 250px;
+        width: 350px;
+    }
+    ul li.li{
+        padding-top: 20px;
+    }
+
+    .premium1{
+        height: 600px;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+    img.ftpremium1{
+        border-radius: 20px;
+        height: 450px;
+        margin: 0;
+    }
+    
+    button#live{
+        margin: 30px 0 0 35px;
+        width: 180px;
+    }
+
+    button.all{
+        margin: 30px 0 30px 65px;
+        width: 180px;
+    }
+    
+    h1.undangan-pernikahan{
+        padding: 10px 0 20px 0;
+    }
+
+    .paket{
+        height: 660px;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    h1.terima-beres{
+        font-size: 12px;
+    }
+}
+@media(max-width: 480px){
+    img.ftheader{
+        padding: 50px 0 0 90px;
+        height: 250px;
+    }
+
+    img.ftit{
+        height: 200px;
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    h1.aboutme{
+        font-size: medium;
+    }
+
+     li.li{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .premium1{
+        height: 560px;
+        width: 280px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+    img.ftpremium1{
+        border-radius: 20px;
+        height: 420px;
+        margin: 0;
+    }
+    
+    button#live{
+        font-size: medium;
+        margin: 30px 0 0 40px;
+        width: 140px;
+    }
+    
+    h1.undangan-pernikahan{
+        padding: 10px 0 20px 0;
+    }
+
+    .paket{
+        height: 700px;
+        width: 280px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    h1.terima-beres{
+        font-size: 8px;
+    }
+}
+
