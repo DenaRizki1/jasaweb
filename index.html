@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-3 premium1">
               <img class="ftpremium1 tema" src="img/TEMA-02.jpg" alt="">
-              <button id="live"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
+              <button id="live" onclick="tema02()"> <i class="bi bi-search"></i> &nbsp; Live Preview</button>
             </div>
             <div class="col-md-3 premium1">
               <img class="ftpremium1 tema" src="img/TEMA-03.jpg" alt="">
@@ -134,7 +134,7 @@
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Ucapan</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Love Stories</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Galery Max 10</p>
-              <button class="pesan" onclick="pesan()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
+              <button class="pesan" onclick="reguler()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
             </div>
             <div class="col-md-3 paket">
               <h1 class="reguler">Paket Premium</h1>
@@ -144,10 +144,9 @@
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Background Musik</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Tampilkan Rekening Amplop Digital</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Bebas Pilih Tema Premium</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Masa Aktif 1 Tahun</p>
-              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Kisah Cinta Berupa TimeLine</p>
+              <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> Masa Aktif 1 Bulan</p>
               <p class="text-start fitur-1"><i class="bi bi-check2-circle"></i> + Amplop Digital Full Channel Pembayaran Rp. 50.000</p>
-              <button class="pesan" onclick="pesan()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
+              <button class="pesan" onclick="premium()"><i class="bi bi-whatsapp"></i> Pesan Sekarang</button>
             </div>
           </div>
         </div>
@@ -179,19 +178,7 @@
       });
     </script>
 
-    <script type="text/javaScript">
-      function price() {
-        window.location="#price";
-      };
-
-      function pesan() {
-        window.location="https://wa.me/+6283143835627?message=Halo"
-      }
-
-      function tema01() {
-        window.location= "tema-01/";
-      }
-    </script>
+    <script src="script.js"></script>
 
 
   </body>
