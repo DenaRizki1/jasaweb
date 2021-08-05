@@ -339,6 +339,28 @@ button.play{
 }
 
 @media(max-width: 670px){
+    .tamu{
+        margin-top: 130px;
+        margin-left: 40px;
+        width: 300px;
+        height: 500px;
+    }
+
+    img.imgh{
+        margin-left: 40px;
+    }
+
+    .mempelai{
+        width: 375px;
+        height: 1200px;
+    }
+
+    .profile{
+        margin-left: 15px;
+        height: 1130px;
+        width: 350px;
+    }
+
     img.icon{
         margin-left: 100px;
         height: 90px;
@@ -355,12 +377,13 @@ button.play{
         background-position: -100px -100px;
     }
 
-    .mempelai{
-        height: 1200px;
-    }
 
     h1.pengantin1{
         font-size: 50px;
+    }
+
+    h1.ortu{
+        font-size: large;
     }
 
     .akad{
