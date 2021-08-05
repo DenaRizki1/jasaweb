@@ -1,0 +1,405 @@
+.kpd{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.kpd::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tamu{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+    margin: 40px 0 0 350px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+h1.project{
+    color: rebeccapurple;
+    padding: 10px 0 10px 0;
+}
+
+h1.premium-1{
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+img.imgp{
+    border-radius: 50%;
+    height: 160px;
+}
+
+h1.yth{
+    padding: 20px 0 30px 10px;
+    font-size: x-large;
+}
+
+button.buka{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 50px;
+    width: 180px;
+}
+
+button.buka:hover{
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.awal{
+    background-image: url('../img/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: 0 -400px;
+}
+
+.awal::after{
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background-color: rgba(21, 95, 67, 0.322);
+
+}
+
+h1.wedding{
+    padding: 60px;
+    font-size: 50px;
+    font-family: 'MonteCarlo', cursive;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+}
+
+h1.pengantin{
+    font-family:'Style Script', cursive;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    font-size: 70px;
+    z-index: 2;
+}
+
+img.icon{
+    height: 100px;
+    width: 300px;
+    margin-left: 440px;
+    z-index: 2;
+}
+
+h1.surat{
+    font-size: large;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.mempelai{
+    padding-top: 50px;
+    background-color: chartreuse;
+    background-image: url('../img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+
+}
+
+.profile{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+
+h1.married{
+    padding: 40px 20px;
+    font-family:  cursive;
+}
+
+h1.salam{
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+h1.ucapan{
+    font-size: large;
+    padding-bottom: 40px;
+}
+
+img.icon2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+img.ft{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1.pengantin1{
+    font-family:'Style Script', cursive;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    font-size: 70px;
+    z-index: 2;
+}
+
+h1.ortu{
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.sv{
+    background-image: url('../img/cincin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+    position: relative;
+}
+
+.sv::after{
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background-color: rgba(21, 95, 67, 0.322);
+}
+
+img.cincin{
+    width: 300px;
+    height: 250px;
+    margin: 150px 0 190px 430px;
+    z-index: 2;
+}
+
+h1#hari{
+    margin-left: 350px;
+}
+h1#jam{
+    margin-left: 30px;
+}
+h1#menit{
+    margin-left: 30px;
+}
+h1#detik{
+    margin-left: 20px;
+}
+
+
+h1.waktuacara{
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.jadwal{
+    background-image: url('../img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.akad{
+    border: 1px solid #000000;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 30px 0 30px 40px;
+    height: 450px;
+    width: 350px;
+    margin-left: 200px;
+}
+
+h1.acara{
+    color: #000000;
+    padding-top: 30px;
+    font-family: 'Style Script', cursive;
+}
+
+h1.acara-akad{
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Style Script', cursive;
+    font-size: xx-large;
+    border-bottom: 1px dashed #bcad9d;
+}
+
+h1.tgl{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #000000;
+    font-size: x-large;
+}
+
+h1.wkt{
+    padding-bottom: 10px;
+    color: #000000;
+    font-size: x-large;
+}
+
+h1.lks{
+    color: #000000;
+    font-size: x-large;
+}
+h1.jln{
+    padding-bottom: 10px;
+    color: #000000;
+    font-size: x-large;
+}
+
+button.maps{
+    background-color: #00e1ff;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+}
+
+.resepsi{
+    border: 1px solid #000000;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 30px 0 30px 40px;
+    height: 450px;
+    width: 350px;
+
+}
+
+.galery{
+    background-color: rgb(255, 255, 255);
+}
+
+h1.moment{
+    border-bottom: 1px dashed #000000;
+    color: #000000;
+    font-family: 'Style Script',cursive;
+    padding: 10px 0 20px 0;
+}
+
+h1.galerym{
+    color: #000000;
+    font-family: 'Style Script', cursive;
+    padding: 20px;
+}
+
+h1.story{
+    color: #000000;
+    font-family: 'Style Script', cursive;
+    border-bottom: 1px dashed #000000;
+    padding: 20px;
+}
+
+.loves{
+    background-color: rgb(255, 255, 255);
+}
+
+h1.ls{
+    color: #000000;
+    font-family: 'Style Script', cursive;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button.play{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 50px 0 0 20px;
+    font-size: 40px;
+}
+
+@media(max-width: 670px){
+    img.icon{
+        margin-left: 100px;
+        height: 90px;
+        width: 200px;
+    }
+
+    h1.pengantin{
+        font-size: 50px;
+    }
+
+    .awal{
+        height: 850px;
+        background-attachment: fixed;
+        background-position: -100px -100px;
+    }
+
+    .mempelai{
+        height: 1200px;
+    }
+
+    h1.pengantin1{
+        font-size: 50px;
+    }
+
+    .akad{
+        margin-left: 40px;
+        width: 300px;
+    }
+
+    .resepsi{
+        margin-left: 40px;
+        width: 300px;
+    }
+    h1.waktuacara{
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    .sv{
+        background-position: -500px -170px;
+        height: 900px;
+    }
+
+    img.cincin{
+        margin-left: 50px;
+    }
+    
+    
+    h1#hari{
+        margin-left: 10px;
+    }
+    h1#jam{
+        margin-left: 13px;
+    }
+    h1#menit{
+        margin-left: 13px;
+    }
+    h1#detik{
+        margin-left: 13px;
+    }
+}
