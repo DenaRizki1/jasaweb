@@ -452,9 +452,15 @@ button.play{
     }
 
     .sv{
-        background-position:0 0;
-        background-size: 100% 50%;
+        background-position:0 -160px;
+        background-size: 100% 125%;
+        padding-bottom: 0;
+        height: 700px;
 
+    }
+
+    .jadwal{
+        padding-top: 0;
     }
 
     img.imgh{
