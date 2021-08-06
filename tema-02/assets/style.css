@@ -396,11 +396,15 @@ button.play{
         width: 300px;
     }
     h1.waktuacara{
-        font-size: 20px;
-        width: 80px;
-        height: 80px;
+        font-size: 15px;
+        width: 70px;
+        height: 75px;
         padding: 10px;
         z-index: 2;
+    }
+
+    .hari{
+        margin-left: 7px;
     }
 
     .sv{
@@ -425,4 +429,68 @@ button.play{
     h1#detik{
         margin-left: 13px;
     }
+}
+
+@media(max-height: 480px){
+    .awal{
+        background-position: 0 0;
+    }
+
+    .mempelai{
+        height: 1200px;
+        width: 320px;
+    }
+
+    h1.surat{
+        font-size: 15px;
+    }
+
+    .profile{
+        margin-left: 5px;
+        height: 1100px;
+        width: 300px;
+    }
+
+    .sv{
+        background-position:0 0;
+        background-size: 100% 50%;
+
+    }
+
+    img.imgh{
+        margin-left: 10px;
+    }
+
+    h1.waktuacara{
+        width: 60px;
+        height: 60px;
+    }
+
+    .hari{
+        margin-left: 2px;
+    }
+
+    img.cincin{
+        margin-left: 10px;
+    }
+
+    h1.ortu{
+        font-size: 16px;
+    }
+
+    h1.pengantin1{
+        font-size: 35px;
+    }
+
+    img.icon2{
+        width: 170px;
+    }
+
+    .akad{
+        margin-left: 10px;
+    }
+    .resepsi{
+        margin-left: 10px;
+    }
+
 }
