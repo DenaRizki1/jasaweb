@@ -1,4 +1,3 @@
-
 .kpd{
     background-image: url('../img/bg.jpg');
     background-size: cover;
@@ -314,8 +313,8 @@ h1.ls{
 
     .mempelai{
         margin-left: 10px;
-        height: 670px;
-        width: 350px;
+        height: 620px;
+        width: 340px;
     }
 
     h1.pengantin1{
@@ -327,11 +326,15 @@ h1.ls{
     }
 
     h1.waktuacara{
-        font-size: 20px;
-        width: 80px;
-        height: 80px;
+        font-size: 15px;
+        width: 65px;
+        height: 70px;
         padding: 10px;
         z-index: 2;
+    }
+
+    .hari{
+        margin-left: 15px;
     }
     
     
@@ -358,5 +361,22 @@ h1.ls{
 
     h1.ls{
         font-size: 10px;
+    }
+
+    h1.mengundang{
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 480px){
+    .mempelai{
+        margin-left: 10px;
+        height: 690px;
+        width: 300px;
+    }
+
+    img.imgh{
+        margin-left: 10px;
     }
 }
