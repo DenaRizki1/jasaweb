@@ -408,8 +408,9 @@ button.play{
     }
 
     .sv{
-        background-position: -500px -170px;
-        height: 900px;
+        background-position: -80px -200px;
+        background-size: 150% 125%;
+        height: 770px;
     }
 
     img.cincin{
