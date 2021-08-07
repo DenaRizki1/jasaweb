@@ -353,11 +353,12 @@ button.play{
 
     .mempelai{
         background-size: 130% 100%;
+        height: 1290px;
     }
 
     .profile{
         margin-left: 15px;
-        height: 1130px;
+        height: 1180px;
         width: 350px;
     }
 
@@ -375,6 +376,7 @@ button.play{
         background-size: 140% 100%;
         background-attachment: fixed;
         background-position: -100px -100px;
+        height: 880px;
     }
 
 
@@ -434,7 +436,8 @@ button.play{
 
 @media(max-height: 480px){
     .awal{
-        background-position: 0 0;
+        background-position: -80px 0;
+        height: 850px;
     }
 
     .mempelai{
@@ -487,6 +490,10 @@ button.play{
 
     h1.pengantin1{
         font-size: 35px;
+    }
+
+    img.icon{
+        margin-left:  60px;
     }
 
     img.icon2{
